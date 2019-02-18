@@ -23,7 +23,7 @@ server:
 spring: 
   profiles: test
   application: 
-    name: springcloud-config-xshit-dev
+    name: springcloud-config-xshit-dev-test
 eureka: 
   client: 
     service-url: 
