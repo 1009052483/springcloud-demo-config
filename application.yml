@@ -1,9 +1,10 @@
-﻿spring:
-  profiles:
-    active:
+﻿spring: 
+  profiles: 
+    active: 
     - dev
 ---
 spring:
+<<<<<<< HEAD
   profiles: dev     #开发环境
   application: 
     name: springcloud-config-xshit-dev
@@ -13,3 +14,14 @@ spring:
   application: 
     name: springcloud-config-xshit-dev-test
 #  请保存为UTF-8格式
+=======
+  profiles:  dev     #开发环境
+  application:  
+    name:  springcloud-config-xshit-dev
+---
+spring:
+  profiles:  test   #测试环境
+  application:  
+    name:  springcloud-config-xshit-dev-test
+#  请保存为UTF-8格式
+>>>>>>> e50a15d43cf3cf00a051c8fab41315196206f5d5
